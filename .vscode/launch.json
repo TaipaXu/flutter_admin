@@ -1,0 +1,72 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "linux",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "linux",
+                "--dart-define=env=dev"
+            ]
+        },
+
+        {
+            "name": "macos",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "macos",
+                "--dart-define=env=dev"
+            ]
+        },
+        {
+            "name": "android",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "emulator-5554",
+                "--dart-define=env=dev"
+            ]
+        },
+        {
+            "name": "ios",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "8D68D1C9-0079-497B-B803-0CBDD1DD1D50",
+                "--dart-define=env=dev"
+            ]
+        },
+        {
+            "name": "chrome",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "chrome",
+                "--dart-define=env=dev"
+            ]
+        },
+        {
+            "name": "edge",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-d",
+                "edge",
+                "--dart-define=env=dev"
+            ]
+        },
+    ]
+}
