@@ -26,7 +26,7 @@ class _LayoutState extends State<Layout> {
 
     context.read<store.Route>().addListener(_routeChange);
 
-    WidgetsBinding.instance?.addPostFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       store.route.setCurrentRoute(dashboard);
       store.route.addVisitedRoute(dashboard);
     });

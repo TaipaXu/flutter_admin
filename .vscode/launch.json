@@ -12,7 +12,6 @@
                 "--dart-define=env=dev"
             ]
         },
-
         {
             "name": "macos",
             "program": "lib/main.dart",
@@ -42,7 +41,7 @@
             "type": "dart",
             "args": [
                 "-d",
-                "8D68D1C9-0079-497B-B803-0CBDD1DD1D50",
+                "D327633F-4C82-49EA-B484-23DF07B37F3B",
                 "--dart-define=env=dev"
             ]
         },

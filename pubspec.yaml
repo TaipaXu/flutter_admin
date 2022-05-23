@@ -41,7 +41,7 @@ dependencies:
   dio: ^4.0.4
   provider: ^6.0.2
   http_mock_adapter: ^0.3.2
-  flutter_quill: ^4.0.10
+  flutter_quill: ^5.0.1
   simple_markdown_editor: ^0.2.0
   table_calendar: ^3.0.4
   x_message: ^0.1.0
